@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="date">
         <div class="date__realTime"></div>
         <div class="date__today"></div>
     </div>
+    <div class="list-container">
+        <div class="list-container__todo">
+            <h2>To Do List</h2>
+            <form action="" class="toDoForm">
+                <input type="text" placeholder="Write a to do">
+            </form>
+            <ul class="toDoList">
+            </ul>
+        </div>
+        <div class="list-container__done">
+            <h2>Done List</h2>
+            <ul class="doneList">
+            </ul>
+        </div>
+    </div>
     <script src="date.js"></script>
+    <script src="list.js"></script>
 </body>
 </html>
